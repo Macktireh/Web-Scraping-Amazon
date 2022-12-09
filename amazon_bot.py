@@ -1,11 +1,14 @@
 import time
 import datetime
 import os
+import pprint
 import requests
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from dotenv import load_dotenv
-import pprint
+
+
 
 # Chargement des variables d'environnement se trouvant dans le fichier .env
 load_dotenv()
