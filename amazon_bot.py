@@ -9,7 +9,6 @@ from selenium import webdriver
 from dotenv import load_dotenv
 
 
-
 # Chargement des variables d'environnement se trouvant dans le fichier .env
 load_dotenv()
 
